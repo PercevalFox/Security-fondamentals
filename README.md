@@ -1,8 +1,8 @@
-# Security Fundamentals Demo
+# Security Fundamentals
 
 ## Description
 
-**Security-Fundamentals-Demo** est une application web qui illustre les concepts fondamentaux de la sécurité des systèmes d'information à travers une série d'implémentations pratiques. Le projet se concentre sur les aspects suivants :
+**Security-Fundamentals** est une application web developpé pour illustrer les concepts fondamentaux de la sécurité des systèmes d'information à travers une série d'implémentations pratiques. Le projet se concentre sur les aspects suivants :
 
 - **Authentification et Autorisation**
 - **Chiffrement de données**
