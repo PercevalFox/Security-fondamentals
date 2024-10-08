@@ -121,5 +121,5 @@ Le fichier risk_management.py simule une analyse des risques pour différents ni
 python risk_management.py
 ```
 
-Contribution  
+## Contribution  
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou à proposer des pull requests pour améliorer le projet.  
