@@ -93,29 +93,29 @@ Mot de passe : adminpassword
 ## Fonctionnalités Détailées  
 
 1. **Authentification et Sessions**  
-L'utilisateur doit se connecter pour accéder à des pages protégées comme le tableau de bord. Les mots de passe sont protégés par un hachage sécurisé.  
+   - L'utilisateur doit se connecter pour accéder à des pages protégées comme le tableau de bord. Les mots de passe sont protégés par un hachage sécurisé.  
 
 2. **Chiffrement des Données**  
-Le fichier encryption.py contient une implémentation du chiffrement AES. Exécuter le script pour tester le chiffrement/déchiffrement de données sensibles.  
+   - Le fichier encryption.py contient une implémentation du chiffrement AES. Exécuter le script pour tester le chiffrement/déchiffrement de données sensibles.  
 
 ```
 python encryption.py
 ```
 
 3. **Journalisation des Actions**  
-Les actions des utilisateurs (connexion, accès à des ressources protégées) sont enregistrées dans un fichier app.log. Exécuter logging_setup.py pour voir la journalisation en action.  
+   - Les actions des utilisateurs (connexion, accès à des ressources protégées) sont enregistrées dans un fichier app.log. Exécuter logging_setup.py pour voir la journalisation en action.  
 
 4. **Contrôle d'Accès Basé sur les Rôles (RBAC)**  
-Le fichier rbac.py contrôle l'accès aux ressources en fonction des rôles d'utilisateur (administrateur ou utilisateur standard). Un administrateur a accès aux paramètres, tandis que les utilisateurs standards n'ont accès qu'à certaines sections.  
+   - Le fichier rbac.py contrôle l'accès aux ressources en fonction des rôles d'utilisateur (administrateur ou utilisateur standard). Un administrateur a accès aux paramètres, tandis que les utilisateurs standards n'ont accès qu'à certaines sections.  
 
 5. **Test d'Intégrité des Fichiers**  
-Le fichier file_integrity.py génère un hash SHA-256 pour vérifier l'intégrité des fichiers.  
+   - Le fichier file_integrity.py génère un hash SHA-256 pour vérifier l'intégrité des fichiers.  
 
 ```
 python file_integrity.py
 ```
 6. **Gestion des Risques**  
-Le fichier risk_management.py simule une analyse des risques pour différents niveaux de menaces.  
+   - Le fichier risk_management.py simule une analyse des risques pour différents niveaux de menaces.  
 
 ```
 python risk_management.py
