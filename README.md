@@ -50,36 +50,37 @@ Security-Fundamentals-Demo/
 └── requirements.txt    # Liste des dépendances Python
 ```
 
-## Prérequis
+## Prérequis  
 
-- Python 3.x
-- Pip (gestionnaire de paquets Python)
+- Python 3.x  
+- Pip (gestionnaire de paquets Python)  
 
-Installation
-Cloner le dépôt :
+Installation  
+ 
+Cloner le dépôt :  
 ```
 git clone https://github.com/ton_nom_utilisateur/Security-Fundamentals-Demo.git
 cd Security-Fundamentals-Demo
 ```
-Créer un environnement virtuel (optionnel mais recommandé) :
+Créer un environnement virtuel (optionnel mais recommandé) :  
 
 ```
 python -m venv venv
 source venv/bin/activate  # Sur Windows: venv\Scripts\activate
 ```
-Installer les dépendances :
+Installer les dépendances :  
 
 ```
 pip install -r requirements.txt
 ```
-Lancer l'Application
+Lancer l'Application  
 
-Démarrer l'application Flask :
+Démarrer l'application Flask :  
 
 ```
 python app.py
 ```
-Ouvrir un navigateur web et aller à l'adresse suivante :
+Ouvrir un navigateur web et aller à l'adresse suivante :  
 
 ```
 http://127.0.0.1:5000/login
@@ -88,35 +89,37 @@ Utiliser les informations de connexion suivantes pour accéder au tableau de bor
 
 Nom d'utilisateur : admin  
 Mot de passe : adminpassword  
-Fonctionnalités Détailées  
-1. **Authentification et Sessions**
-L'utilisateur doit se connecter pour accéder à des pages protégées comme le tableau de bord. Les mots de passe sont protégés par un hachage sécurisé.
 
-2. **Chiffrement des Données**
-Le fichier encryption.py contient une implémentation du chiffrement AES. Exécuter le script pour tester le chiffrement/déchiffrement de données sensibles.
+## Fonctionnalités Détailées  
+
+1. **Authentification et Sessions**  
+L'utilisateur doit se connecter pour accéder à des pages protégées comme le tableau de bord. Les mots de passe sont protégés par un hachage sécurisé.  
+
+2. **Chiffrement des Données**  
+Le fichier encryption.py contient une implémentation du chiffrement AES. Exécuter le script pour tester le chiffrement/déchiffrement de données sensibles.  
 
 ```
 python encryption.py
 ```
 
-3. **Journalisation des Actions**
-Les actions des utilisateurs (connexion, accès à des ressources protégées) sont enregistrées dans un fichier app.log. Exécuter logging_setup.py pour voir la journalisation en action.
+3. **Journalisation des Actions**  
+Les actions des utilisateurs (connexion, accès à des ressources protégées) sont enregistrées dans un fichier app.log. Exécuter logging_setup.py pour voir la journalisation en action.  
 
-4. **Contrôle d'Accès Basé sur les Rôles (RBAC)**
-Le fichier rbac.py contrôle l'accès aux ressources en fonction des rôles d'utilisateur (administrateur ou utilisateur standard). Un administrateur a accès aux paramètres, tandis que les utilisateurs standards n'ont accès qu'à certaines sections.
+4. **Contrôle d'Accès Basé sur les Rôles (RBAC)**  
+Le fichier rbac.py contrôle l'accès aux ressources en fonction des rôles d'utilisateur (administrateur ou utilisateur standard). Un administrateur a accès aux paramètres, tandis que les utilisateurs standards n'ont accès qu'à certaines sections.  
 
-5. **Test d'Intégrité des Fichiers**
-Le fichier file_integrity.py génère un hash SHA-256 pour vérifier l'intégrité des fichiers.
+5. **Test d'Intégrité des Fichiers**  
+Le fichier file_integrity.py génère un hash SHA-256 pour vérifier l'intégrité des fichiers.  
 
 ```
 python file_integrity.py
 ```
-6. **Gestion des Risques**
-Le fichier risk_management.py simule une analyse des risques pour différents niveaux de menaces.
+6. **Gestion des Risques**  
+Le fichier risk_management.py simule une analyse des risques pour différents niveaux de menaces.  
 
 ```
 python risk_management.py
 ```
 
-Contribution
-Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou à proposer des pull requests pour améliorer le projet.
+Contribution  
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou à proposer des pull requests pour améliorer le projet.  
