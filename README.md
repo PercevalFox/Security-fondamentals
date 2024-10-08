@@ -84,11 +84,11 @@ Ouvrir un navigateur web et aller à l'adresse suivante :
 ```
 http://127.0.0.1:5000/login
 ```
-Utiliser les informations de connexion suivantes pour accéder au tableau de bord :
+Utiliser les informations de connexion suivantes pour accéder au tableau de bord :  
 
-Nom d'utilisateur : admin
-Mot de passe : adminpassword
-Fonctionnalités Détailées
+Nom d'utilisateur : admin  
+Mot de passe : adminpassword  
+Fonctionnalités Détailées  
 1. **Authentification et Sessions**
 L'utilisateur doit se connecter pour accéder à des pages protégées comme le tableau de bord. Les mots de passe sont protégés par un hachage sécurisé.
 
